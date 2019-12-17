@@ -1,7 +1,7 @@
 # Snow-Typecho-Plugin
 一个简单的 typecho 页面下雪的插件
 
-[Demo](https://blog.miuxc.com/)
+[演示](https://blog.miuxc.com/)
 
 ## 介绍
 原生 JavaScript 实现，不依赖其他类库
