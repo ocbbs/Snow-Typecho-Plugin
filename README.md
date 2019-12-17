@@ -16,5 +16,5 @@ handsome主题需要在`后台/开发者设置/自定义CSS/` 粘贴以下代码
   min-height: 100%;
   height: auto;
  }`
- 启用即刻生效
+ 启用即生效
 
