@@ -68,7 +68,7 @@ class Snow_Plugin implements Typecho_Plugin_Interface
 				snowFall.snow(document.body);
 				document.body.className  = "darkBg";
 	            snowFall.snow(document.body, "clear");
-	            snowFall.snow(document.body, {image : "https://www.miuxc.com/images/flake.png",flakeCount : 200, minSize: 10, maxSize:32});
+	            snowFall.snow(document.body, {image : "https://www.miuxc.com/images/flake.png",flakeCount : 20, minSize: 10, maxSize:32});
 	    </script>
 <!-- Snow End -->
 EOF;
