@@ -65,10 +65,9 @@ class Snow_Plugin implements Typecho_Plugin_Interface
         <!-- Snow Start -->
         <script src="https://www.miuxc.com/js/Snow.js"></script>
 	    <script type='text/javascript'>
-				snowFall.snow(document.body);
-				document.body.className  = "darkBg";
-	            snowFall.snow(document.body, "clear");
-	            snowFall.snow(document.body, {image : "https://www.miuxc.com/images/flake.png",flakeCount : 50, minSize: 10, maxSize:32});
+		snowFall.snow(document.body);
+		document.body.className  = "darkBg";
+	        snowFall.snow(document.body, {image : "https://www.miuxc.com/images/flake.png",flakeCount : 50, minSize: 10, maxSize:32});
 	    </script>
 <!-- Snow End -->
 EOF;
