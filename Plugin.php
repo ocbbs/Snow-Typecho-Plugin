@@ -3,9 +3,9 @@
  * 简单的页面下雪插件
  * 
  * @package Snow
- * @author Galaxy
+ * @author Anemone
  * @version 1.0.0
- * @link https://blog.miuxc.com
+ * @link https://www.teamep.cn
  */
 class Snow_Plugin implements Typecho_Plugin_Interface
 {
@@ -63,11 +63,11 @@ class Snow_Plugin implements Typecho_Plugin_Interface
     public static function footer(){
         echo <<<EOF
         <!-- Snow Start -->
-        <script src="https://www.miuxc.com/js/Snow.js"></script>
+        <script src="static/js/Snow.js"></script>
 	    <script type='text/javascript'>
 		snowFall.snow(document.body);
 		document.body.className  = "darkBg";
-	        snowFall.snow(document.body, {image : "https://www.miuxc.com/images/flake.png",flakeCount : 50, minSize: 10, maxSize:32});
+	        snowFall.snow(document.body, {image : "static/images/flake.png",flakeCount : 50, minSize: 10, maxSize:32});
 	    </script>
 <!-- Snow End -->
 EOF;
